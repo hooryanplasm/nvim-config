@@ -14,5 +14,9 @@ Custom Neovim configuration built for the **nightly snapshot**.
     Something that deletes removed packages when delisted from vim.pack
     Keybinding for automatic update
 
-lua vim.pack.del({ 'typescript-tools.nvim' })
-
+Help me to refactor my neovim configuration with the following goals:
+    - Expand the configuration into multiple files.
+    - Remove the abbreviations like map and automcd, where the complete call its defined in variables.
+    - Implement a fast and minimal solution for autoformat, which currently uses conform. Prioritize fast and built-in tools, for the js formatter for example I heard there are alternative tools to prettier which are much faster, or even the new bun formatter if possible.
+    - Fix LSP, which stopped working out of nowhere for js/ts.
+    - Set wrap inside text or md files.
